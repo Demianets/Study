@@ -14,6 +14,8 @@ namespace ConsoleApp1
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
             Console.WriteLine("Hello World!");
 			Console.WriteLine("Hello World1!");
+			Console.WriteLine("Hello World2!");
+			Console.WriteLine("bad commit");
             Console.ReadKey();
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
