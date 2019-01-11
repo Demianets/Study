@@ -1,0 +1,7 @@
+X:\Study\StudyConsole\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+X:\Study\StudyConsole\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+X:\Study\StudyConsole\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+X:\Study\StudyConsole\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+X:\Study\StudyConsole\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+X:\Study\StudyConsole\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+X:\Study\StudyConsole\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
