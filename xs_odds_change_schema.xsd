@@ -1,0 +1,23 @@
+<xs:element name="odds_change">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sport_event_status" type="sportEventStatus"
+          minOccurs="0" maxOccurs="1"/>
+        <xs:element name="odds_generation_properties" type="oddsGenerationProperties" minOccurs="0"
+          maxOccurs="1"/>
+        <xs:element name="odds" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="market" type="oddsChangeMarket"
+                minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="betting_status" type="xs:int" use="optional"/>
+            <xs:attribute name="betstop_reason" type="xs:int" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+
+      <xs:attributeGroup ref="messageAttributes"/>
+      <xs:attribute name="odds_change_reason" type="oddsChangeReason"/>
+    </xs:complexType>
+  </xs:element>
